@@ -222,7 +222,7 @@ li{
 
 }
 
-.navbar{position
+.navbar{
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -693,6 +693,7 @@ li{
   justify-content: center;
   text-align: center;
   margin: 0 auto;
+  margin-top: 1rem;
 }
 
 .value__section h2{
@@ -741,6 +742,8 @@ li{
     font-family: 'Citzel', 'sans-serif';
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    width: 80vw;
+    margin: 0 auto;
   }
 
 
@@ -749,7 +752,7 @@ li{
      color: #232087                ;
      cursor: pointer;
      padding: 18px;
-     width: 80vw;
+     width: 60vw;
      border: none;
      text-align: left;
      outline: none;
@@ -761,6 +764,7 @@ li{
   .accordion-h2{
     font-size: 4rem;
     padding-bottom: 2rem;
+  
   }
                     
   .accordion.active,
