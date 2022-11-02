@@ -481,7 +481,7 @@ li{
   text-align: center;
   font-family: 'Cinzel', 'sans-serif';
   font-size: 4rem;
-  color: cyan;
+  color: #232087;
 }
 .img-slider .slide{
   z-index: 1;
@@ -559,6 +559,10 @@ li{
   .slider{
     width: 80%;
     margin: 0 auto;
+  }
+
+  .pop-prop {
+    color: #232087 !important;
   }
   
   .img-slider{
@@ -877,6 +881,55 @@ value__accordion_item {
   margin: 0 auto;
 }
 
+.contact {
+	background: #black;
+	padding: 4rem 0 8rem;
+}
+.contact h2 {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+.form-container {
+	width: 58%;
+  border: 6px solid var(--first-color-light);
+  background: #232087;
+	padding: 3rem;
+	box-sizing: border-box;
+	height: 0%;
+	border-radius: 25px;
+  margin: 0 auto;
+}
+.form-container h3 {
+	color: #000;
+	font-family: "Playfair Display", serif;
+	margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.form-container label {
+	display: block;
+	color: #000;
+	margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.form-container input,.form-container textarea {
+	display: block;
+	border-radius: 20px;
+	padding: 10px;
+	border: 1px solid #ced4da;
+	width: 100%;
+	box-sizing: border-box;
+	height: 43px;
+	font-family: "Roboto", "Helvetica", "Sans-serif";
+	font-size: 1rem;
+	color: #495057;
+}
+.form-container textarea {
+	
+	height: 170px;
+	margin-bottom: 2rem;
+	resize: none;
+}
+
 /* .contact__images {
   position: relative;
   display: flex;
@@ -971,7 +1024,7 @@ value__accordion_item {
 
 .subscribe__container {
   margin: 0 auto;
-  background-color: var(--first-color);
+  background-color: #232087;
   padding: 3rem 2rem;
   border-radius: 1.25rem;
   border: 6px solid var(--first-color-light);
